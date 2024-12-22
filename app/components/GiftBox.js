@@ -32,7 +32,7 @@ function GiftBox() {
   };
   return (
     <div
-      className={`${roboto.className} ${playfair.className} antialiased h-screen w-full p-4 flex flex-col justify-center items-center gap-5 bg-gradient-to-br from-gray-950 to-emerald-800`}
+      className={`${roboto.className} ${playfair.className} antialiased h-screen min-w-60 md:w-1/2 lg:w-1/3 p-4 flex flex-col justify-center items-center gap-5 `}
     >
       <audio ref={audioRef} hidden>
         <source src="/jingle-bells.mp3" type="audio/mp3" />

@@ -11,7 +11,11 @@ export default function Home() {
     setIsMatch(null);
   };
   return (
-    <div className="h-dvh w-auto flex flex-col justify-center items-center m-auto">
+    <div
+      className={`h-dvh w-auto flex flex-col justify-center items-center m-auto ${
+        isMatch ? "bg-gradient-to-br from-gray-950 to-emerald-800" : ""
+      }`}
+    >
       {isMatch === null && <NameInput onNameMatch={setIsMatch} />}
       {isMatch === false && (
         <div className="flex flex-col justify-center items-center m-auto gap-4">
