@@ -51,7 +51,7 @@ function GiftBox() {
       {opened && (
         <>
           <Confetti />
-          <h1 className="text-4xl mt-auto font-bold w-full px-3 animate-fadeIn">
+          <h1 className="text-white text-4xl mt-auto font-bold w-full px-3 animate-fadeIn">
             {/* <Image src={celebration} alt="" className="w-8" /> */}
             <div className="w-full">
               <p className="text-start font-playfair">Merry Christmas</p>
@@ -60,7 +60,7 @@ function GiftBox() {
             </div>
             {/* <Image src={celebration} alt="" className="w-8" /> */}
           </h1>
-          <p className="text-2xl my-2 animate-slideUp font-roboto">
+          <p className="text-white text-2xl my-2 animate-slideUp font-roboto">
             Here&#39;s my gift to you!
           </p>
 
